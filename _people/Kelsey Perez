@@ -1,0 +1,58 @@
+---
+name: Kelsey Perez
+category: people
+position: Undergraduate Research 
+about: "enjoys hiking, running, trying new cafes, and love my pets! "
+twitter: 
+linkedin: 'www.linkedin.com/in/kelsey-perez-7b2711268'
+github:
+email: 'klperez@usc.edu'
+stackedoverflow: 
+image: 'people/KelseyPerez.png'
+genericimage: 'people/genericperson.png'
+link: 'people/MiaFranks.html'
+layout: menu-page
+---
+<!-- No need to change anything here -->
+{% capture post_url %}{{ relativebase }}{{ page.url }}{% endcapture %}
+{% assign post_url = post_url | replace: "//", "/" %}
+
+<div class="small-wrapper">
+  <div class="about-container">
+    <section class="about-header">
+      <div class="author-image-container">
+        <a href='{{ post_url}} '><img src='{{ relativebase }}/assets/img/{{ page.image }}'></a>
+      </div>
+
+
+<h3> {{page.name}}</h3>
+<h4> {{page.position}} </h4>
+
+<section class="about-body">
+          <ul class="contact-list">
+          {% if page.twitter %}
+            <li class="twitter"><a class="twitter" href="https://twitter.com/{{page.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          {% endif %}
+          {% if page.linkedin %}
+            <li class="linkedin"><a class="linkedin" href="https://in.linkedin.com/in/{{page.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          {% endif %}
+          {% if page.github %}
+            <li class="github"><a class="github" href="https://github.com/{{page.github}}" target="_blank"><i class="fa fa-github"></i></a></li>
+          {% endif %}
+          {% if page.email %}
+            <li class="email"><a class="email" href="mailto:{{page.email}}"><i class="fa fa-envelope-o"></i></a></li>
+          {% endif %}
+          {% if page.stackoverflow %}
+          <li class="stackoverflow"><a class="stackoverflow" href="https://stackoverflow.com/users/{{page.stackoverflow}}" target="_blank">
+            <i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
+          {% endif %}
+          </ul>
+          </section>
+
+<!-- Fill in details below, as many paragraphs as you'd like -->
+<p>With Dr. Held's mentorship, I hope to gain laboratory and critical thinking skills. My goal is to grow as a person and reseracher to prepare myself for my graduate schooling and future career in the Marine Sciences. </p>
+<p>I grew up in Los Angeles and always grew up with dogs and cats which is how I gained a love for animals! My goal has always been to help the animals and their environment through sceince and in my undergrad schooling I rediscovered my passion for marine science. My ultimate goal is to help our oceans from climate change and research new new ways to combat this problem while paving the way for future generations. </p>
+
+<!-- No need to change anything here -->
+</section>
+</div>
