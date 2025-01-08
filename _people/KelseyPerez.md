@@ -50,8 +50,8 @@ layout: menu-page
           </section>
 
 <!-- Fill in details below, as many paragraphs as you'd like -->
-<p> I hope to gain a greater understanding of oceanography, specifically proteomics, and apply my in-class knowledge in the laboratory. Through Dr. Held's and her graduate students metorship I am excited to learn more laboratory skills and become more confident in the lab to prepare me for my graduate education. </p>
-<p> I grew up in Los Angeles and my family and I always has pets! My goal has always been to help animals and the environment so I hope to pursue a career in marine biology or oceanography and fulfill my goal. I enjoy hiking, cooking, and going out with friends to cafes and restaurants! </p>
+<p> I grew up in Los Angeles with my family, two dogs, and my cat! I enjoy hiking, running, baking, and going out with friends to cafes and restaurants! </p>
+<p> After a Maymester in Catalina Island, my interest futher grew in marine biology and oceanography. I plan to pursue my Ph.D. in this field and fulfill my goals in marine science. I hope to gain a greater understanding of oceanography, specifically proteomics, and apply my learned skills to my future endeavors. I am excited to learn and be mentored by Dr. Noelle Held and her graduate students!  </p>
 
 <!-- No need to change anything here -->
 </section>
